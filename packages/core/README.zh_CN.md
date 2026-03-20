@@ -1,5 +1,7 @@
 # @linglongos/vite-plugin-html
 
+[**English**](./README.md) | [**中文**](./README.zh_CN.md)
+
 基于 [vite-plugin-html](https://www.npmjs.com/package/vite-plugin-html) fork，**支持 Vite 6/7/8**，持续更新维护。
 
 ## 功能特性

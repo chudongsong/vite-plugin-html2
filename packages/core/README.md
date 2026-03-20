@@ -1,5 +1,7 @@
 # @linglongos/vite-plugin-html
 
+[**English**](./README.md) | [**中文**](./README.zh_CN.md)
+
 Forked from [vite-plugin-html](https://www.npmjs.com/package/vite-plugin-html) with **Vite 6/7/8 support** and modernized dependencies.
 
 ## Features
