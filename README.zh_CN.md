@@ -1,4 +1,4 @@
-# vite-plugin-html2
+# @linglongos/vite-plugin-html
 
 **中文** | [English](./README.md)
 
@@ -23,13 +23,13 @@
 **vite version:** >=2.0.0
 
 ```bash
-yarn add vite-plugin-html2 -D
+yarn add @linglongos/vite-plugin-html -D
 ```
 
 或
 
 ```bash
-npm i vite-plugin-html2 -D
+npm i @linglongos/vite-plugin-html -D
 ```
 
 ## 使用
@@ -52,7 +52,7 @@ npm i vite-plugin-html2 -D
 import { defineConfig, Plugin } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
-import { createHtmlPlugin } from 'vite-plugin-html2'
+import { createHtmlPlugin } from '@linglongos/vite-plugin-html'
 
 export default defineConfig({
   plugins: [
@@ -97,7 +97,7 @@ export default defineConfig({
 
 ```ts
 import { defineConfig } from 'vite'
-import { createHtmlPlugin } from 'vite-plugin-html2'
+import { createHtmlPlugin } from '@linglongos/vite-plugin-html'
 
 export default defineConfig({
   plugins: [
@@ -156,13 +156,13 @@ export default defineConfig({
 
 ### UserOptions
 
-| 参数     | 类型                     | 默认值        | 说明                            |
-| -------- | ------------------------ | ------------- | ------------------------------- |
-| entry    | `string`                 | `src/main.ts` | 入口文件                        |
-| template | `string`                 | `index.html`  | 模板的相对路径                  |
-| inject   | `InjectOptions`          | -             | 注入 HTML 的数据                |
-| minify   | `boolean｜MinifyOptions` | -             | 是否压缩 html                   |
-| pages    | `PageOption`             | -             | 多页配置                        |
+| 参数     | 类型                     | 默认值        | 说明             |
+| -------- | ------------------------ | ------------- | ---------------- |
+| entry    | `string`                 | `src/main.ts` | 入口文件         |
+| template | `string`                 | `index.html`  | 模板的相对路径   |
+| inject   | `InjectOptions`          | -             | 注入 HTML 的数据 |
+| minify   | `boolean｜MinifyOptions` | -             | 是否压缩 html    |
+| pages    | `PageOption`             | -             | 多页配置         |
 
 ### InjectOptions
 
@@ -231,7 +231,7 @@ MIT
 
 基于 [vite-plugin-html](https://www.npmjs.com/package/vite-plugin-html) fork
 
-[npm-img]: https://img.shields.io/npm/v/vite-plugin-html2.svg
-[npm-url]: https://www.npmjs.com/package/vite-plugin-html2
-[node-img]: https://img.shields.io/node/v/vite-plugin-html2.svg
+[npm-img]: https://img.shields.io/npm/v/@linglongos/vite-plugin-html.svg
+[npm-url]: https://www.npmjs.com/package/@linglongos/vite-plugin-html
+[node-img]: https://img.shields.io/node/v/@linglongos/vite-plugin-html.svg
 [node-url]: https://nodejs.org/en/about/releases/

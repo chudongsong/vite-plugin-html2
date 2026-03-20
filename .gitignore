@@ -2,3 +2,10 @@ node_modules
 .pnpm-store
 .playwright-mcp
 dist
+*.local
+.DS_Store
+*.log
+.idea
+.vscode
+!.vscode/extensions.json
+!.vscode/settings.json

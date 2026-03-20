@@ -1,6 +1,6 @@
 {
-  "name": "vite-plugin-html2",
-  "version": "1.0.0",
+  "name": "@linglongos/vite-plugin-html",
+  "version": "1.0.1",
   "description": "Fork of vite-plugin-html with Vite 8 support, EJS template and HTML minification for index.html",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
@@ -32,6 +32,13 @@
   ],
   "author": "Vben",
   "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://www.npmjs.com"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/vbenjs/vite-plugin-html",

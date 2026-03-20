@@ -1,4 +1,4 @@
-# vite-plugin-html2
+# @linglongos/vite-plugin-html
 
 **English** | [中文](./README.zh_CN.md)
 
@@ -21,13 +21,13 @@
 **vite version:** >=2.0.0
 
 ```bash
-yarn add vite-plugin-html2 -D
+yarn add @linglongos/vite-plugin-html -D
 ```
 
 或
 
 ```bash
-npm i vite-plugin-html2 -D
+npm i @linglongos/vite-plugin-html -D
 ```
 
 ## Usage
@@ -50,7 +50,7 @@ npm i vite-plugin-html2 -D
 import { defineConfig, Plugin } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
-import { createHtmlPlugin } from 'vite-plugin-html2'
+import { createHtmlPlugin } from '@linglongos/vite-plugin-html'
 
 export default defineConfig({
   plugins: [
@@ -95,7 +95,7 @@ Multi-page application configuration
 
 ```ts
 import { defineConfig } from 'vite'
-import { createHtmlPlugin } from 'vite-plugin-html2'
+import { createHtmlPlugin } from '@linglongos/vite-plugin-html'
 
 export default defineConfig({
   plugins: [
@@ -154,13 +154,13 @@ export default defineConfig({
 
 ### UserOptions
 
-| Parameter | Types                    | Default       | Description                                       |
-| --------- | ------------------------ | ------------- | ------------------------------------------------- |
-| entry     | `string`                 | `src/main.ts` | entry file path                                   |
-| template  | `string`                 | `index.html`  | relative path to the template                     |
-| inject    | `InjectOptions`          | -             | Data injected into HTML                           |
-| minify    | `boolean｜MinifyOptions` | -             | whether to compress html                          |
-| pages     | `PageOption`             | -             | Multi-page configuration                          |
+| Parameter | Types                    | Default       | Description                   |
+| --------- | ------------------------ | ------------- | ----------------------------- |
+| entry     | `string`                 | `src/main.ts` | entry file path               |
+| template  | `string`                 | `index.html`  | relative path to the template |
+| inject    | `InjectOptions`          | -             | Data injected into HTML       |
+| minify    | `boolean｜MinifyOptions` | -             | whether to compress html      |
+| pages     | `PageOption`             | -             | Multi-page configuration      |
 
 ### InjectOptions
 
@@ -229,7 +229,7 @@ MIT
 
 Forked from [vite-plugin-html](https://www.npmjs.com/package/vite-plugin-html)
 
-[npm-img]: https://img.shields.io/npm/v/vite-plugin-html2.svg
-[npm-url]: https://www.npmjs.com/package/vite-plugin-html2
-[node-img]: https://img.shields.io/node/v/vite-plugin-html2.svg
+[npm-img]: https://img.shields.io/npm/v/@linglongos/vite-plugin-html.svg
+[npm-url]: https://www.npmjs.com/package/@linglongos/vite-plugin-html
+[node-img]: https://img.shields.io/node/v/@linglongos/vite-plugin-html.svg
 [node-url]: https://nodejs.org/en/about/releases/
