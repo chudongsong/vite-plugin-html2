@@ -41,13 +41,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vbenjs/vite-plugin-html",
+    "url": "https://github.com/chudongsong/vite-plugin-html2",
     "directory": "packages/core"
   },
   "bugs": {
-    "url": "https://github.com/vbenjs/vite-plugin-html/issues"
+    "url": "https://github.com/chudongsong/vite-plugin-html2/issues"
   },
-  "homepage": "https://github.com/vbenjs/vite-plugin-html/tree/master/#readme",
+  "homepage": "https://github.com/chudongsong/vite-plugin-html2#readme",
   "dependencies": {
     "@rollup/pluginutils": "^4.2.0",
     "colorette": "^2.0.16",
